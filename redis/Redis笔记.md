@@ -33,9 +33,9 @@
 
   
 
-- ![image-20250525182229821](.\image\typora-user-images\image-20250525182229821.png)
+- ![image-20250525182229821](typora-user-images\image-20250525182229821.png)
 
-- ![image-20250525182305362](.\image\typora-user-images\image-20250525182305362.png)
+- ![image-20250525182305362](typora-user-images\image-20250525182305362.png)
 
 - 
 
@@ -47,7 +47,7 @@
 
 ### 2.1**基于缓存空对象解决缓存击穿问题**
 
-- ![image-20250525184858358](.\typora-user-images\image-20250525184858358.png)
+- ![image-20250525184858358](typora-user-images\image-20250525184858358.png)
 
 
 
@@ -68,7 +68,7 @@
 
 **缓存雪崩:**是指在同一时段大量的缓存key同时失效或者Redis服务宕机,导致大量请求到达数据库,带来巨大压力。
 
-![image-20250525191935476](.\typora-user-images\image-20250525191935476.png)
+![image-20250525191935476](typora-user-images\image-20250525191935476.png)
 
 ### 3.1缓存雪崩的解决
 
@@ -80,12 +80,12 @@
 
 ### 4.1击穿
 
-![image-20250525194837278](.\typora-user-images\image-20250525194837278.png)
+![image-20250525194837278](typora-user-images\image-20250525194837278.png)
 
 ### 4.2互斥锁和逻辑过期
 
-![image-20250525194917385](.\typora-user-images\image-20250525194917385.png)
+![image-20250525194917385](typora-user-images\image-20250525194917385.png)
 
 ### 4.3方案优缺点
 
-![image-20250525194927275](.\typora-user-images\image-20250525194927275.png)
+![image-20250525194927275](typora-user-images\image-20250525194927275.png)
